@@ -1,6 +1,6 @@
 {
   "name": "collect-feeds",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A CLI for collect feed URLs.",
   "main": "lib/index.js",
   "bin": {
