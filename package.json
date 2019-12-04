@@ -1,0 +1,73 @@
+{
+  "name": "collect-feeds",
+  "version": "0.0.2",
+  "description": "A CLI for collect feed URLs.",
+  "main": "lib/index.js",
+  "bin": {
+    "collect-feeds": "lib/index.js"
+  },
+  "scripts": {
+    "demo": "collect-feeds",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "test": "mocha test/index.js",
+    "test:cov": "nyc npm run test",
+    "test:loop": "while npm test --silent; do :; done"
+  },
+  "dependencies": {
+    "feed-finder": "github:dailyrandomphoto/feed-finder#master",
+    "fs-extra": "^8.1.0",
+    "promise-queue": "^2.2.5",
+    "proper-lockfile": "^4.1.1",
+    "rss-finder": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "collect-feeds": "file:.",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
+    "xo": "^0.25.3"
+  },
+  "keywords": [
+    "feed",
+    "rss",
+    "atom",
+    "collect",
+    "finder"
+  ],
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=8.6.0"
+  },
+  "author": "dailyrandomphoto <dailyrandomphoto@gmail.com> (https://www.dailyrandomphoto.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dailyrandomphoto/collect-feeds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dailyrandomphoto/collect-feeds/issues"
+  },
+  "homepage": "https://github.com/dailyrandomphoto/collect-feeds#readme",
+  "xo": {
+    "space": 2,
+    "rules": {
+      "promise/prefer-await-to-then": 0,
+      "capitalized-comments": 0
+    },
+    "overrides": [
+      {
+        "files": "test/*.js",
+        "envs": [
+          "node",
+          "mocha"
+        ]
+      }
+    ]
+  }
+}
