@@ -1,6 +1,6 @@
 {
   "name": "collect-feeds",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "A CLI for collect feed URLs.",
   "main": "lib/index.js",
   "bin": {
@@ -15,7 +15,7 @@
     "test:loop": "while npm test --silent; do :; done"
   },
   "dependencies": {
-    "feed-finder": "^0.2.1",
+    "feed-finder": "github:dailyrandomphoto/feed-finder#my-master",
     "fs-extra": "^8.1.0",
     "promise-queue": "^2.2.5",
     "proper-lockfile": "^4.1.1",
