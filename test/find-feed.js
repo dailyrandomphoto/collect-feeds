@@ -3,7 +3,7 @@
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const {expect} = chai;
-const {findFeed} = require('collect-feeds/lib/find-feed.js');
+const {findFeed} = require('../lib/find-feed.js');
 
 describe('find-feed', function () {
   this.timeout(40000);

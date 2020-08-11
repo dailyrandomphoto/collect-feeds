@@ -29,7 +29,7 @@ Once a URL was fecthed, it will be appended to `skip-list.txt`, so next time wil
 You can modify `skip-list.txt` to skip some URLs or re-fetch some URLs.
 
 ## License
-Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
+Copyright (c) 2020 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
 [npm-url]: https://www.npmjs.com/package/collect-feeds
