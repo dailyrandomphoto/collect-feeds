@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
-const {expect} = chai;
+const { expect } = chai;
 const main = require('..');
 /* eslint-disable import/no-unassigned-import */
 require('./find-feed.js');

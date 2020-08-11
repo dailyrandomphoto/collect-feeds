@@ -3,8 +3,7 @@
 [![NPM Version][npm-version-image]][npm-url]
 [![LICENSE][license-image]][license-url]
 [![Build Status][travis-image]][travis-url]
-[![dependencies Status][dependencies-image]][dependencies-url]
-[![devDependencies Status][devDependencies-image]][devDependencies-url]
+[![code style: prettier][code-style-prettier-image]][code-style-prettier-url]
 
 A CLI for collect feed URLs.
 
@@ -29,20 +28,16 @@ Once a URL was fecthed, it will be appended to `skip-list.txt`, so next time wil
 You can modify `skip-list.txt` to skip some URLs or re-fetch some URLs.
 
 ## License
+
 Copyright (c) 2020 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
 [npm-url]: https://www.npmjs.com/package/collect-feeds
 [travis-url]: https://travis-ci.org/dailyrandomphoto/collect-feeds
-[coveralls-url]: https://coveralls.io/github/dailyrandomphoto/collect-feeds?branch=master
 [license-url]: LICENSE
-[dependencies-url]: https://david-dm.org/dailyrandomphoto/collect-feeds
-[devDependencies-url]: https://david-dm.org/dailyrandomphoto/collect-feeds?type=dev
-
+[code-style-prettier-url]: https://github.com/prettier/prettier
 [npm-downloads-image]: https://img.shields.io/npm/dm/collect-feeds
 [npm-version-image]: https://img.shields.io/npm/v/collect-feeds
 [license-image]: https://img.shields.io/npm/l/collect-feeds
 [travis-image]: https://img.shields.io/travis/dailyrandomphoto/collect-feeds
-[coveralls-image]: https://img.shields.io/coveralls/github/dailyrandomphoto/collect-feeds
-[dependencies-image]: https://img.shields.io/david/dailyrandomphoto/collect-feeds
-[devDependencies-image]: https://img.shields.io/david/dev/dailyrandomphoto/collect-feeds
+[code-style-prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
