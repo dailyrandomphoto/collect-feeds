@@ -8,8 +8,8 @@
   },
   "scripts": {
     "demo": "collect-feeds",
-    "lint": "xo",
-    "lint:fix": "xo --fix",
+    "lint": "prettier --write . && xo",
+    "lint:fix": "prettier --write . && xo --fix",
     "test": "mocha test/index.js",
     "test:cov": "nyc npm run test",
     "test:loop": "while npm test --silent; do :; done"
@@ -26,6 +26,7 @@
     "chai-as-promised": "^7.1.1",
     "mocha": "^8.1.1",
     "nyc": "^15.1.0",
+    "prettier": "^2.0.5",
     "xo": "^0.33.0"
   },
   "keywords": [
@@ -41,7 +42,7 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=10"
   },
   "author": "dailyrandomphoto <dailyrandomphoto@gmail.com> (https://www.dailyrandomphoto.com/)",
   "license": "MIT",
@@ -55,9 +56,11 @@
   "homepage": "https://github.com/dailyrandomphoto/collect-feeds#readme",
   "xo": {
     "space": 2,
+    "prettier": true,
     "rules": {
       "promise/prefer-await-to-then": 0,
-      "capitalized-comments": 0
+      "capitalized-comments": 0,
+      "unicorn/prefer-number-properties": 0
     },
     "overrides": [
       {

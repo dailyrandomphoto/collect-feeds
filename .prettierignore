@@ -1,0 +1,10 @@
+coverage/**
+node_modules/**
+dist/**
+build/**
+.nyc_output/**
+LICENSE
+failed.yml
+found.yml
+skip-list.txt
+url-queue.txt
