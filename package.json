@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "feed-finder": "github:dailyrandomphoto/feed-finder#my-master",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^10.0.0",
     "promise-queue": "^2.2.5",
     "proper-lockfile": "^4.1.1",
     "rss-finder": "^2.1.4"
